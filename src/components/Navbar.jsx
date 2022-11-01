@@ -3,7 +3,6 @@ import { Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import logo from "../Utilities/mainIcon.png";
 import SearchBar from "./SearchBar";
-import BoxModal from "./Login/Modal";
 
 const Navbar = () => {
   return (
@@ -32,7 +31,6 @@ const Navbar = () => {
         </Typography>
       </Link>
       <SearchBar />
-      <BoxModal/>
     </Stack>
   );
 };

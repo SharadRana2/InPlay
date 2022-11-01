@@ -24,33 +24,24 @@ a {
 ::-webkit-scrollbar-track {
   background-color: transparent;
 }
-
 .category-btn:hover {
   background-color: #cfd2cf !important;
   color: #000 !important;
 }
-
 .category-btn:hover span {
   color: #000 !important;
 }
-
-/* .react-player {
-  height: 77vh !important;
-  width: 100% !important;
-} */
-
 .search-bar {
   border: none;
   outline: none;
   width: 350px;
 }
-
 .category-btn {
   font-weight: bold !important;
   text-transform: capitalize;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   cursor: pointer;
   background: transparent;
   outline: none;
@@ -94,7 +85,7 @@ a {
   .search-bar {
     width: 200px;
   }
-  .hidden{
+  .hidden {
     display: none !important;
   }
 }
